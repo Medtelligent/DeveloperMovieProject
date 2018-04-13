@@ -55,27 +55,34 @@ namespace DeveloperMovieProject.Controllers
         {
             var genres = _dbContext.Genres.ToList();
 
-            MovieFormViewModel viewModel = new MovieFormViewModel {Genres = genres};
+            MovieFormViewModel viewModel = new MovieFormViewModel { Genres = genres };
 
             return View("MovieForm", viewModel);
         }
 
-        //// POST: Movies/Create
-        //// To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        //// more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Create([Bind(Include = "Id,Title,Year,GenreId")] Movie movie)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        _dbContext.Movies.Add(movie);
-        //        _dbContext.SaveChanges();
-        //        return RedirectToAction("Index");
-        //    }
+        // POST: Movies/New
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult New([Bind(Include = "Id,Title,Year,GenreId")] Movie movie)
+        {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new MovieFormViewModel(movie)
+                {
+                    Genres = _dbContext.Genres.ToList()
+                };
 
-        //    return View(movie);
-        //}
+                return View("MovieForm", viewModel);
+            }
+
+            _dbContext.Movies.Add(movie);
+
+            _dbContext.SaveChanges();
+
+            return RedirectToAction("Index", "Movies");
+        }
 
         //// GET: Movies/Edit/5
         //public ActionResult Edit(int? id)
