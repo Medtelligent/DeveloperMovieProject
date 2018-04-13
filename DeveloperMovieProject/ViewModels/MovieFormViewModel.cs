@@ -9,7 +9,7 @@ namespace DeveloperMovieProject.ViewModels
 {
     public class MovieFormViewModel
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [Required]
         [StringLength(255)]
@@ -29,6 +29,11 @@ namespace DeveloperMovieProject.ViewModels
             Title = movie.Title;
             Year = movie.Year;
             GenreId = movie.GenreId;
+        }
+
+        public MovieFormViewModel()
+        {
+            Id = 0;
         }
     }
 }
