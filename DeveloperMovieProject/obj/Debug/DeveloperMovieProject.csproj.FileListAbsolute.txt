@@ -120,3 +120,4 @@ C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Deb
 C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.pdb
 C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.Migrations.InitialMigration.resources
 C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.csproj.GenerateResource.cache
+C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.Migrations.AddedMovieModel.resources
