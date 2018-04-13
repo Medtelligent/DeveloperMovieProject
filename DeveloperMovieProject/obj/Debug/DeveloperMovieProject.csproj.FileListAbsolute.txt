@@ -123,3 +123,4 @@ C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Deb
 C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.Migrations.AddedMovieModel.resources
 C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.Migrations.AddedGenreModel.resources
 C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.Migrations.AddedDataAnnotations.resources
+C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.Migrations.PopulateGenres.resources

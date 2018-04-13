@@ -211,6 +211,10 @@
     <Compile Include="Migrations\201804131658311_AddedDataAnnotations.Designer.cs">
       <DependentUpon>201804131658311_AddedDataAnnotations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804131715111_PopulateGenres.cs" />
+    <Compile Include="Migrations\201804131715111_PopulateGenres.Designer.cs">
+      <DependentUpon>201804131715111_PopulateGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -306,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804131658311_AddedDataAnnotations.resx">
       <DependentUpon>201804131658311_AddedDataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804131715111_PopulateGenres.resx">
+      <DependentUpon>201804131715111_PopulateGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
