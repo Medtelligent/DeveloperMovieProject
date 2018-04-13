@@ -121,3 +121,4 @@ C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Deb
 C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.Migrations.InitialMigration.resources
 C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.csproj.GenerateResource.cache
 C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.Migrations.AddedMovieModel.resources
+C:\Users\NoName\Source\Repos\DeveloperMovieProject\DeveloperMovieProject\obj\Debug\DeveloperMovieProject.Migrations.AddedGenreModel.resources

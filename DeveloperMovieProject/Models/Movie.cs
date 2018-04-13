@@ -14,5 +14,8 @@ namespace DeveloperMovieProject.Models
         public string Title { get; set; }
         
         public DateTime Year { get; set; }
+
+        public Genre Genre { get; set; }
+        public byte GenreId { get; set; }
     }
 }
